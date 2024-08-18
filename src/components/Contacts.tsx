@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const Contacts = () => {
   return (
-    <section>
+    <section className="overflow-hidden">
       <h1 className="container text-9xl text-primary-400 font-bold uppercase">
         تواصل معنا
       </h1>
