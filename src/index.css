@@ -6,3 +6,9 @@ body {
   font-family: "Zain", sans-serif;
   font-style: normal;
 }
+
+@media (max-width: 768px) {
+  html {
+    font-size: 8px; /* 1rem = 14px */
+  }
+}

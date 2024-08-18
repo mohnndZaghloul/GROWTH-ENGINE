@@ -7,7 +7,14 @@ const About = () => {
         initial={{ x: -500, opacity: 0 }}
         transition={{ duration: 0.5 }}
         whileInView={{ x: 0, opacity: 1 }}
-        className="text-9xl pb-20 text-secondary-400 font-bold uppercase">
+        className="text-9xl hidden md:block pb-20 text-secondary-400 font-bold uppercase">
+        من نحن؟
+      </motion.h1>
+      <motion.h1
+        initial={{ x: -50, opacity: 0 }}
+        transition={{ duration: 0.5 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        className="text-9xl md:hidden pb-20 text-secondary-400 font-bold uppercase">
         من نحن؟
       </motion.h1>
       <motion.div

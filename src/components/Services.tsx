@@ -25,7 +25,7 @@ const Services = () => {
       <div className="space-y-16">
         <motion.div
           initial={{
-            x: -400,
+            x: "-80%",
             opacity: 0,
           }}
           transition={{ duration: 0.5 }}
@@ -57,7 +57,7 @@ const Services = () => {
         </motion.div>
         <motion.div
           initial={{
-            x: 400,
+            x: "80%",
             opacity: 0,
           }}
           transition={{ duration: 0.5 }}
@@ -89,7 +89,7 @@ const Services = () => {
         </motion.div>
         <motion.div
           initial={{
-            x: -400,
+            x: "-80%",
             opacity: 0,
           }}
           transition={{ duration: 0.5 }}
@@ -120,7 +120,7 @@ const Services = () => {
         </motion.div>
         <motion.div
           initial={{
-            x: 400,
+            x: "80%",
             opacity: 0,
           }}
           transition={{ duration: 0.5 }}
@@ -151,7 +151,7 @@ const Services = () => {
         </motion.div>
         <motion.div
           initial={{
-            x: -400,
+            x: "-80%",
             opacity: 0,
           }}
           transition={{ duration: 0.5 }}
@@ -184,7 +184,7 @@ const Services = () => {
         </motion.div>
         <motion.div
           initial={{
-            x: 400,
+            x: "80%",
             opacity: 0,
           }}
           transition={{ duration: 0.5 }}
@@ -215,7 +215,7 @@ const Services = () => {
         </motion.div>
         <motion.div
           initial={{
-            x: -400,
+            x: "-80%",
             opacity: 0,
           }}
           transition={{ duration: 0.5 }}
@@ -246,7 +246,7 @@ const Services = () => {
         </motion.div>
         <motion.div
           initial={{
-            x: 400,
+            x: "80%",
             opacity: 0,
           }}
           transition={{ duration: 0.5 }}

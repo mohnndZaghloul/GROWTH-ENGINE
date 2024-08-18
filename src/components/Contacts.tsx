@@ -10,7 +10,7 @@ const Contacts = () => {
         لا تتردد في التواصل معنا للحصول على استشارة بما يخص أعمالك التسويقية
         ومعرفة كيف يمكننا مساعدتك.
       </p>
-      <div className="text-xl flex justify-center text-primary-400 py-10 bg-dark-200">
+      <div className="text-xl flex flex-col md:flex-row justify-center text-primary-400 py-10 bg-dark-200">
         <motion.a
           whileTap={{ scale: 1.2 }}
           initial={{ x: 100, opacity: 0 }}
@@ -21,7 +21,7 @@ const Contacts = () => {
           href="mailto:Contact@growthmrk.com">
           البريد الإلكتروني : Contact@growthmrk.com
         </motion.a>
-        <span className="w-[1px] h-6 bg-primary-400"></span>
+        <span className="w-[1px] h-6 hidden md:inline bg-primary-400"></span>
         <motion.a
           initial={{ opacity: 0 }}
           transition={{ duration: 0.5 }}
@@ -32,7 +32,7 @@ const Contacts = () => {
           href="tel:+966566269303">
           الهاتف : +966 56 525 9303
         </motion.a>
-        <span className="w-[1px] h-6 bg-primary-400"></span>
+        <span className="w-[1px] h-6 hidden md:inline bg-primary-400"></span>
         <motion.p
           initial={{ x: -100, opacity: 0 }}
           transition={{ duration: 0.5 }}

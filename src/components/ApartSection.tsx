@@ -6,7 +6,7 @@ const ApartSection = () => {
       <h1 className="container text-9xl text-primary-400 font-bold uppercase pb-16">
         ما يميزنا
       </h1>
-      <div className="flex pb-20">
+      <div className="flex flex-col md:flex-row pb-20">
         <motion.div
           initial={{ x: 300, opacity: 0 }}
           transition={{ duration: 0.5 }}
