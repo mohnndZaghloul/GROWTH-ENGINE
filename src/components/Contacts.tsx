@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Contacts = () => {
   return (
-    <section className="overflow-hidden">
+    <section id="contacts" className="overflow-hidden">
       <h1 className="container text-9xl text-primary-400 font-bold uppercase">
         تواصل معنا
       </h1>
@@ -49,11 +50,13 @@ const Contacts = () => {
           ابدأ الآن مع Growth Engine!
         </button>
         <motion.a
-          whileTap={{ scale: 1.2 }}
+          whileTap={{ scale: 0.8 }}
+          whileHover={{ scale: 1.1 }}
           target="_blank"
           href="https://wa.me/+966566269303"
-          className="px-8 py-4 bg-opacity-70 hover:bg-opacity-100 transition bg-primary-400">
+          className="fixed bottom-10 rounded-2xl left-10 p-4 flex justify-center items-center gap-x-2 bg-opacity-70 hover:bg-opacity-100 transition bg-primary-400">
           انقر هنا للتواصل مع المختص
+          <FaWhatsapp className="text-xl" />
         </motion.a>
       </div>
     </section>

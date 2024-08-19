@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const ApartSection = () => {
   return (
-    <section className="overflow-hidden">
+    <section className="overflow-hidden my-24">
       <h1 className="container text-9xl text-primary-400 font-bold uppercase pb-16">
         ما يميزنا
       </h1>

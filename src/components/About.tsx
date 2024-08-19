@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section className="container py-16 rounded-3xl shadow-xl bg-primary-400">
+    <section id="about" className="container my-24 py-16 rounded-3xl shadow-xl bg-primary-400">
       <motion.h1
         initial={{ x: -500, opacity: 0 }}
         transition={{ duration: 0.5 }}
@@ -21,7 +21,7 @@ const About = () => {
         initial={{ y: 100, scale: 0.8, opacity: 0 }}
         transition={{ duration: 0.5 }}
         whileInView={{ y: 0, scale: 1, opacity: 1 }}
-        className="shadow-2xl text-xl py-12 px-10 bg-primary-300 text-secondary-400 bg-opacity-80 rounded-2xl space-y-6">
+        className="shadow-2xl text-2xl py-12 px-10 bg-primary-300 text-secondary-400 bg-opacity-80 rounded-2xl space-y-6">
         <p>
           في Growth Engine، من القلب النابض للعاصمة الرياض ننطلق ومستهدفنا نمو
           عملائنا من خلال ما نقدمه من حلول تسويقية إبداعية، حيث نعمل على تحويل
