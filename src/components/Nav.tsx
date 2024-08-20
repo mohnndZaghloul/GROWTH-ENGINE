@@ -6,17 +6,17 @@ const Nav = () => {
     <motion.header className="fixed top-0 w-full z-50 overflow-hidden">
       <div className="absolute left-0 top-0 w-full h-full blur-xl bg-light opacity-10" />
       <nav className="container relative flex justify-between items-center">
-        <ul dir="ltr" className="flex justify-center items-center space-x-8">
-          <li className="text-xl hover:text-secondary-400 hover:scale-110 transition">
+        <ul className="flex justify-center items-center gap-x-8">
+          <li className="text-2xl hover:text-secondary-400 hover:scale-110 transition">
             <a href="">الرئيسية</a>
           </li>
-          <li className="text-xl hover:text-secondary-400 hover:scale-110 transition">
+          <li className="text-2xl hover:text-secondary-400 hover:scale-110 transition">
             <a href="#about">من نحن</a>
           </li>
-          <li className="text-xl hover:text-secondary-400 hover:scale-110 transition">
+          <li className="text-2xl hover:text-secondary-400 hover:scale-110 transition">
             <a href="#services">خدماتنا</a>
           </li>
-          <li className="text-xl hover:text-secondary-400 hover:scale-110 transition">
+          <li className="text-2xl hover:text-secondary-400 hover:scale-110 transition">
             <a href="#contacts">تواصل معنا</a>
           </li>
         </ul>

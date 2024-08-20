@@ -7,11 +7,11 @@ const Contacts = () => {
       <h1 className="container text-9xl text-primary-400 font-bold uppercase">
         تواصل معنا
       </h1>
-      <p className="container text-3xl pb-16">
+      <p className="container text-4xl md:text-3xl pb-16">
         لا تتردد في التواصل معنا للحصول على استشارة بما يخص أعمالك التسويقية
         ومعرفة كيف يمكننا مساعدتك.
       </p>
-      <div className="text-xl flex flex-col md:flex-row justify-center text-primary-400 py-10 bg-dark-200">
+      <div className="text-3xl md:text-xl flex flex-col md:flex-row gap-y-4 justify-center text-primary-400 py-10 bg-dark-200">
         <motion.a
           whileTap={{ scale: 1.2 }}
           initial={{ x: 100, opacity: 0 }}
@@ -42,7 +42,7 @@ const Contacts = () => {
           العنوان : الرياض، المملكة العربية السعودية
         </motion.p>
       </div>
-      <div className="container flex justify-evenly items-center py-4">
+      <div className="container text-2xl flex justify-evenly items-center py-4">
         <button className="px-8 py-4 bg-opacity-70 hover:bg-opacity-100 transition bg-primary-400">
           دعوة للعمل
         </button>

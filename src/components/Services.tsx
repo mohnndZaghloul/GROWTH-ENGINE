@@ -17,12 +17,12 @@ const Services = () => {
       <h1 className="container text-9xl text-primary-400 font-bold uppercase">
         خدماتنا
       </h1>
-      <h3 className="text-2xl pb-16">
+      <h3 className="text-4xl md:text-3xl pb-16">
         في Growth Engine، نعمل على تقديم مجموعة متنوعة من الخدمات التسويقية
         المتكاملة التي تضمن تحقيق أهدافك بأعلى مستويات الجودة والإبداع. ولأن لكل
         قطاع تحديات مختلفة نقدم حلولًا مخصصة تغطي كافة جوانب التسويق:
       </h3>
-      <div className="space-y-16 text-xl">
+      <div className="space-y-16 text-2xl">
         <motion.div
           initial={{
             x: "-80%",
@@ -44,7 +44,7 @@ const Services = () => {
             <PiStrategyBold className="text-primary-300 text-7xl" />
           </motion.div>
           <div className="flex flex-col justify-center">
-            <h5 className="text-3xl font-semibold pb-2 text-primary-300">
+            <h5 className="text-4xl font-semibold pb-2 text-primary-300">
               استراتيجية التسويق الشاملة
             </h5>
             <p>
@@ -76,7 +76,7 @@ const Services = () => {
             <FaTachographDigital className="text-primary-300 text-7xl" />
           </motion.div>
           <div className="flex flex-col justify-center">
-            <h5 className="text-3xl font-semibold pb-2 text-primary-300">
+            <h5 className="text-4xl font-semibold pb-2 text-primary-300">
               التسويق الرقمي
             </h5>
             <p>
@@ -109,7 +109,7 @@ const Services = () => {
             <MdMediation className="text-primary-300 text-7xl" />
           </motion.div>
           <div className="flex flex-col justify-center">
-            <h5 className="text-3xl font-semibold pb-2 text-primary-300">
+            <h5 className="text-4xl font-semibold pb-2 text-primary-300">
               إدارة وسائل التواصل الاجتماعي
             </h5>
             <p>
@@ -140,7 +140,7 @@ const Services = () => {
             <BiBookContent className="text-primary-300 text-7xl" />
           </motion.div>
           <div className="flex flex-col justify-center">
-            <h5 className="text-3xl font-semibold pb-2 text-primary-300">
+            <h5 className="text-4xl font-semibold pb-2 text-primary-300">
               صناعة المحتوى
             </h5>
             <p>
@@ -172,7 +172,7 @@ const Services = () => {
             <MdContentCopy className="text-primary-300 text-7xl" />
           </motion.div>
           <div className="flex flex-col justify-center">
-            <h5 className="text-3xl font-semibold pb-2 text-primary-300">
+            <h5 className="text-4xl font-semibold pb-2 text-primary-300">
               التسويق بالمحتوى المرئي
             </h5>
             <p>
@@ -203,7 +203,7 @@ const Services = () => {
             <MdOutlineBrandingWatermark className="text-primary-300 text-7xl" />
           </motion.div>
           <div className="flex flex-col justify-center">
-            <h5 className="text-3xl font-semibold pb-2 text-primary-300">
+            <h5 className="text-4xl font-semibold pb-2 text-primary-300">
               تصميم الجرافيك والعلامات التجارية
             </h5>
             <p>
@@ -234,7 +234,7 @@ const Services = () => {
             <MdManageAccounts className="text-primary-300 text-7xl" />
           </motion.div>
           <div className="flex flex-col justify-center">
-            <h5 className="text-3xl font-semibold pb-2 text-primary-300">
+            <h5 className="text-4xl font-semibold pb-2 text-primary-300">
               إدارة العلاقات العامة
             </h5>
             <p>
@@ -265,7 +265,7 @@ const Services = () => {
             <SiSimpleanalytics className="text-primary-300 text-7xl" />
           </motion.div>
           <div className="flex flex-col justify-center">
-            <h5 className="text-3xl font-semibold pb-2 text-primary-300">
+            <h5 className="text-4xl font-semibold pb-2 text-primary-300">
               التحليلات وتقييم الأداء
             </h5>
             <p>
