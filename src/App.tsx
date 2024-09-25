@@ -7,7 +7,7 @@ import Services from "./components/Services";
 
 function App() {
   return (
-    <main dir="rtl" className="text-light bg-secondary-400">
+    <main dir="rtl" className="text-light text-justify bg-secondary-400">
       <Nav />
       <Hero />
       <About />

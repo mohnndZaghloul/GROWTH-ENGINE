@@ -24,7 +24,7 @@ const About = () => {
         transition={{ duration: 0.5 }}
         whileInView={{ y: 0, scale: 1, opacity: 1 }}
         className="shadow-2xl text-4xl md:text-3xl py-12 px-10 bg-primary-300 text-secondary-400 bg-opacity-80 rounded-2xl space-y-6">
-        <p>
+        <p className="text-justify">
           <span className="font-bold text-6xl md:text-5xl">
             في Growth Engine،
           </span>
